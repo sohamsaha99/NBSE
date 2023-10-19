@@ -201,5 +201,5 @@ est.distance.nbse <- function(A, V) {
   D
 }
 
-# Create adjacency matrix from graphon
+# TODO: Create adjacency matrix from graphon
 

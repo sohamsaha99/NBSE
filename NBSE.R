@@ -181,8 +181,6 @@ rownames(d2) <- colnames(d2) <- paste(c(3, 8, 1, 5, 4, 9, 10))
 est.distance.nbse <- function(A, V) {
   # Size
   n <- nrow(A)
-  # init distance matrix
-  D <- matrix(NA, nrow = n, ncol = n)
   # Get traversal
   path <- get_traversal(create_supergraph(V))
   # Create distance matrix for first two subgraphs in path and combine

@@ -1,0 +1,6 @@
+.Rhistory
+.Rprofile
+.Rproj.user/
+*.Rproj
+renv/
+test_data.txt

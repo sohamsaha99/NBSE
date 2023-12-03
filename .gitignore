@@ -4,3 +4,4 @@
 *.Rproj
 renv/
 test_data.txt
+.RData
